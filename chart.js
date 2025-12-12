@@ -10,6 +10,21 @@ const DATA_FILE_PATH = "orgdata.json"; // Path to the JSON file
 // Global variable for transition duration (FIX: Moved here to resolve ReferenceError)
 const DURATION = 500; 
 
+const countryAbbr = {
+    "Australia": "AU",
+    "Brazil": "BR",
+    "Emirates": "AE",   // UAE / Emirates
+    "France": "FR",
+    "Germany": "DE",
+    "India": "IN",
+    "Italy": "IT",
+    "Malaysia": "MY",
+    "Netherlands": "NL",
+    "Poland": "PL",
+    "Spain": "ES",
+    "USA": "US"
+};
+
 // ---------------------------------------------------------
 // 1. DATA LOADING FUNCTION - Uses d3.json to fetch data
 // ---------------------------------------------------------
@@ -506,9 +521,14 @@ function initializeChart(orgData) {
             .attr("dy", "1.2em") 
             .style("font-size", "11px")
             .style("fill", "#333")
-            .text(d => d.data.title);
-
-        // EXPAND/COLLAPSE INDICATOR
+            .text(d => {
+				const role = d.data.title || "";
+				const countryFull = d.data.country || "";
+				const country = countryAbbr[countryFull] || countryFull; // fallback if not in map
+				return country ? `${role}, ${country}` : role;
+			});
+		
+		// EXPAND/COLLAPSE INDICATOR
         nodeEnter.append('text')
             .attr('class', 'toggle-indicator')
             .attr('text-anchor', 'end')
