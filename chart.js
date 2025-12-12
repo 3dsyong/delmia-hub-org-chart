@@ -11,18 +11,18 @@ const DATA_FILE_PATH = "orgdata.json"; // Path to the JSON file
 const DURATION = 500; 
 
 const countryAbbr = {
-    "Australia": "AU",
-    "Brazil": "BR",
-    "Emirates": "AE",   // UAE / Emirates
-    "France": "FR",
-    "Germany": "DE",
-    "India": "IN",
-    "Italy": "IT",
-    "Malaysia": "MY",
-    "Netherlands": "NL",
-    "Poland": "PL",
-    "Spain": "ES",
-    "USA": "US"
+    "Australia": "AUS",
+    "Brazil": "BRA",
+    "Emirates": "ARE",    // UAE
+    "France": "FRA",
+    "Germany": "DEU",
+    "India": "IND",
+    "Italy": "ITA",
+    "Malaysia": "MYS",
+    "Netherlands": "NLD",
+    "Poland": "POL",
+    "Spain": "ESP",
+    "USA": "USA"
 };
 
 // ---------------------------------------------------------
