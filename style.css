@@ -4,8 +4,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f7f6;
+<<<<<<< HEAD
     /* CRITICAL FIX: Pushes content down to clear the fixed header and controls */
     padding-top: 140px; /* Adjusted from 100px to accommodate new control bar (approx 40px height) */
+=======
+    /* CRITICAL FIX: Pushes content down to clear the fixed header */
+    padding-top: 100px;
+>>>>>>> 6f03ecb03442b06354001ebb8ff170172ded3d40
 }
 
 /* --- Fixed Header --- */
@@ -30,6 +35,7 @@ header h1 {
     font-weight: 600;
 }
 
+<<<<<<< HEAD
 /* --- Controls Container --- */
 #controls {
     position: fixed;
@@ -70,6 +76,13 @@ header h1 {
     width: 100%;
     /* Full height of the viewport minus the header and controls height */
     height: calc(100vh - 140px); /* Adjusted from 100px to 140px */
+=======
+/* --- Chart Container --- */
+#chart-container {
+    width: 100%;
+    /* Full height of the viewport minus the header height */
+    height: calc(100vh - 100px); 
+>>>>>>> 6f03ecb03442b06354001ebb8ff170172ded3d40
     /* IMPORTANT: Allows scrolling if the SVG gets larger than the screen */
     overflow: auto; 
     text-align: center;
@@ -93,6 +106,7 @@ header h1 {
 .node:hover rect {
     stroke: #005386;
     stroke-width: 2px;
+<<<<<<< HEAD
     filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.2));
 }
 
@@ -121,3 +135,41 @@ header h1 {
     max-width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+=======
+    filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.1));
+}
+
+.node text {
+    font: 14px sans-serif;
+    fill: #333;
+    pointer-events: none;
+}
+
+.node .title {
+    font-size: 11px;
+    fill: #666;
+}
+
+/* --- Links (Lines) --- */
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
+
+/* --- Tooltip --- */
+.tooltip {
+    position: absolute;
+    text-align: left;
+    padding: 12px;
+    font: 12px sans-serif;
+    background: #005386;
+    color: white;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+    z-index: 1001;
+    transition: opacity 0.2s;
+}
+>>>>>>> 6f03ecb03442b06354001ebb8ff170172ded3d40
