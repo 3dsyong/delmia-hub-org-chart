@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELMIA Hub Organization Chart</title>
+    <!-- Load D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Load Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>DELMIA Hub Organization Chart</h1>
+    </header>
+    
+    <!-- New Control Bar -->
+	<div id="controls">
+		<button id="expand-all-button" class="action-button">Expand All</button>
+		<button id="collapse-all-button" class="action-button" style="margin-left:10px;">Collapse All</button>
+
+		<input id="search-input" type="text" placeholder="Search name or trigram..."
+			   style="padding:6px; font-size:14px; margin-left:15px; margin-right:10px; width:220px;">
+
+		<button id="search-button" class="action-button">Search</button>
+
+		<span id="search-message" style="margin-left:12px; color:#e04; font-weight:600;"></span>
+	</div>
+	<!-- End New Control Bar -->
+
+
+    <!-- The container for the chart (will handle scrolling if chart is larger than screen) -->
+    <div id="chart-container">
+        <p id="loading-message">Loading data...</p>
+    </div>
+
+	<div id="lastUpdate"
+		 style="
+			position: fixed;
+			bottom: 10px;
+			right: 15px;
+			font-size: 13px;
+			color: #005386;
+			background: transparent;
+			padding: 4px 10px;
+			border-radius: 4px;
+			z-index: 2000;
+			user-select: none;
+		 ">
+		Last Update: —
+	</div>
+
+    <script src="chart.js"></script>
+
+</body>
+</html>
