@@ -637,19 +637,19 @@ function initializeChart(orgData) {
             <table style="width: 100%; border-collapse: collapse; font-size: 0.9em; color: white;">
                 <tr>
                     <td style="text-align: left; padding-right: 10px; white-space: nowrap;"><strong>Team:</strong></td>
-                    <td style="text-align: left;">${data.team || 'N/A'}</td>
+                    <td style="text-align: left;">${data.team || '-'}</td>
                 </tr>
                 <tr>
                     <td style="text-align: left; padding-right: 10px; white-space: nowrap;"><strong>Country:</strong></td>
-                    <td style="text-align: left;">${data.country || 'N/A'}</td>
+                    <td style="text-align: left;">${data.country || '-'}</td>
                 </tr>
                 <tr>
                     <td style="text-align: left; padding-right: 10px; white-space: nowrap;"><strong>Email:</strong></td>
-                    <td style="text-align: left;">${data.email || 'N/A'}</td>
+                    <td style="text-align: left;">${data.email || '-'}</td>
                 </tr>
                 <tr>
                     <td style="text-align: left; padding-right: 10px; white-space: nowrap;"><strong>OU:</strong></td>
-                    <td style="text-align: left;">${data.OU || 'N/A'}</td>
+                    <td style="text-align: left;">${data.OU || '-'}</td>
                 </tr>
             </table>
         `)

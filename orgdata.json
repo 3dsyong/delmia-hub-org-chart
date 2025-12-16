@@ -1,5 +1,5 @@
 [
-	{ "lastUpdate": "2025-12-03", "id": "L9B", "parentid": "", "name": "Artur LUKASIK", "title": "Services Management", "team": "", "country": "USA", "email": "Artur.LUKASIK@3ds.com", "OU": "-" },
+	{ "lastUpdate": "2025-12-03", "id": "L9B", "parentid": "", "name": "Artur LUKASIK", "title": "Services Management", "team": "", "country": "USA", "email": "Artur.LUKASIK@3ds.com", "OU": "" },
 	{ "lastUpdate": "2025-12-03", "id": "A9W", "parentid": "U2T", "name": "Michael KUTSCHER", "title": "Services Management", "team": "Delivery PL", "country": "Germany", "email": "michael.kutscher@3ds.com", "OU": "APRIS" },
 	{ "lastUpdate": "2025-12-03", "id": "AAD9", "parentid": "ALG2", "name": "Amir Helmi ABD HAMID", "title": "Services Software Consultant", "team": "Delivery MY", "country": "Malaysia", "email": "amirhelmi.abdhamid@3ds.com", "OU": "QUINT" },
 	{ "lastUpdate": "2025-12-03", "id": "ABA64", "parentid": "RDN1", "name": "Ashmita BHATTACHARYA", "title": "Services Software Consultant", "team": "Rail COE", "country": "India", "email": "Ashmita.BHATTACHARYA@3ds.com", "OU": "QUINT" },
