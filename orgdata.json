@@ -1101,17 +1101,6 @@
     },
     {
         "lastUpdate":  "2026-01-07",
-        "id":  "KHI11",
-        "parentid":  "TYG1",
-        "name":  "Kia Hui KOH",
-        "title":  "Services Software Consultant",
-        "team":  "Delivery MY",
-        "country":  "Malaysia",
-        "email":  "Kia.HUI.Contractor@3ds.com",
-        "OU":  "QUINT"
-    },
-    {
-        "lastUpdate":  "2026-01-07",
         "id":  "KJZ1",
         "parentid":  "B8V",
         "name":  "Kamil JANUSZ",
@@ -2069,17 +2058,6 @@
     },
     {
         "lastUpdate":  "2026-01-07",
-        "id":  "RLW1",
-        "parentid":  "TYG1",
-        "name":  "Ryan LIEW",
-        "title":  "Services Software Consultant",
-        "team":  "Delivery MY",
-        "country":  "Malaysia",
-        "email":  "Ryan.LIEW.Contractor@3ds.com",
-        "OU":  "QUINT"
-    },
-    {
-        "lastUpdate":  "2026-01-07",
         "id":  "RSK7",
         "parentid":  "GSK1",
         "name":  "Rafal SZEWCZYK",
@@ -2626,17 +2604,6 @@
         "team":  "Delivery MY",
         "country":  "Malaysia",
         "email":  "kokchung.wong@3ds.com",
-        "OU":  "QUINT"
-    },
-    {
-        "lastUpdate":  "2026-01-07",
-        "id":  "WKN1",
-        "parentid":  "TYG1",
-        "name":  "Jack WONG",
-        "title":  "Services Software Consultant",
-        "team":  "Delivery MY",
-        "country":  "Malaysia",
-        "email":  "Jack.WONG.Contractor@3ds.com",
         "OU":  "QUINT"
     },
     {
