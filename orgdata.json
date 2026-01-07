@@ -1,6 +1,6 @@
 ﻿[
     {
-        "lastUpdate":  "2026-01-08",
+        "lastUpdate":  "2026-01-07",
         "id":  "L9B",
         "parentid":  "",
         "name":  "Artur LUKASIK",
@@ -2802,6 +2802,17 @@
         "team":  "Delivery MY",
         "country":  "Malaysia",
         "email":  "adrian.tern@3ds.com",
+        "OU":  "QUINT"
+    },
+    {
+        "lastUpdate":  "2026-01-07",
+        "id":  "ZHO1",
+        "parentid":  "YCE1",
+        "name":  "Zhi Yi HO",
+        "title":  "Services Software Consultant",
+        "team":  "Delivery MY",
+        "country":  "Malaysia",
+        "email":  "ZhiYi.HO@3ds.com",
         "OU":  "QUINT"
     },
     {
