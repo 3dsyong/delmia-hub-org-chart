@@ -13,6 +13,7 @@ const DURATION = 500;
 const countryAbbr = {
     "Australia": "AUS",
     "Brazil": "BRA",
+	"China": "CHN",
     "Emirates": "ARE",    // UAE
     "France": "FRA",
     "Germany": "DEU",
