@@ -3092,6 +3092,17 @@
     },
     {
         "lastUpdate":  "2026-11-02",
+        "id":  "LWG19",
+        "parentid":  "CSI1",
+        "name":  "Jess WONG",
+        "title":  "Services Software Consultant",
+        "team":  "Delivery MY",
+        "country":  "Malaysia",
+        "email":  "Jess.WONG@3ds.com",
+        "OU":  "QUINT"
+    },
+    {
+        "lastUpdate":  "2026-11-02",
         "id":  "DBE23",
         "parentid":  "PBR14",
         "name":  "Deepak BARHATE",
@@ -3111,5 +3122,16 @@
         "country":  "India",
         "email":  "Abhishek.KALE@3ds.com",
         "OU":  "APRIS"
+    },
+    {
+        "lastUpdate":  "2026-11-02",
+        "id":  "SSO18",
+        "parentid":  "JVN2",
+        "name":  "Sip Boon SOO",
+        "title":  "Infrastructure Consultant",
+        "team":  "Technical Architects",
+        "country":  "Malaysia",
+        "email":  "SipBoon.SOO@3ds.com",
+        "OU":  "QUINT"
     }
 ]
